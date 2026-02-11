@@ -5,7 +5,6 @@ public class BinarySearchRecursive {
 
             if (arr[mid] == x)
                 return mid;
-
             if (arr[mid] > x) {
                 return binarySearch(arr, low, mid - 1, x);
             } else{
@@ -18,9 +17,9 @@ public class BinarySearchRecursive {
 
     public static void main(String args[])
     {
-        int arr[] = { 2, 3, 4, 10, 40 };
+        int arr[] = { 1,2,3,4,5,6,7,8,9};
         int n = arr.length;
-        int x = 10;
+        int x = 9;
         int result = binarySearch(arr, 0, n - 1, x);
         if (result == -1) {
             System.out.println("Element is not present in array");

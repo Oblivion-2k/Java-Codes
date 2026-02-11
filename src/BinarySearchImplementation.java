@@ -20,7 +20,7 @@ public class BinarySearchImplementation {
 
     public static void main(String[] args) {
         int[] arr1 = {1,2,3,4,5,6,77,88,99,101,102,155,166,200};
-        int x = binSearch(arr1, 201);
+        int x = binSearch(arr1, 155);
         System.out.println(x);
     }
 }
